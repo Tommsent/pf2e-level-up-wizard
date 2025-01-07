@@ -1,0 +1,152 @@
+{
+  "PF2E_LEVEL_UP_WIZARD": {
+    "button-tooltip": "Level Up!",
+    "menu": {
+      "title": "Level-Up Wizard",
+      "header": {
+        "name": "{actorName} steigt auf Stufe {targetLevel} auf!",
+        "description": "Hier ist eine Übersicht deiner neuen Talente. Bitte wähle aus, wo du dazu aufgefordert wirst!"
+      },
+      "close": "Schließen",
+      "notes": {
+        "note": "Anmerkung:",
+        "featsPrereq": "Talente mit Voraussetzungen sind mit einem Sternchen (*) gekennzeichnet",
+        "classJournal": "Erfahre mehr über deine Klasse:"
+      },
+      "dropdown": {
+        "placeholder": "Triff eine Auswahl"
+      },
+      "classFeats": {
+        "header": "{className} Klassentalente",
+        "label": "Neues Klassentalent verfügbar:",
+        "checkbox": "Archetyp Talente einbeziehen"
+      },
+      "freeArchetypeFeats": {
+        "header": "Freie Archetypen Talente",
+        "label": "Neues freies Archetypentalent verfügbar:"
+      },
+      "ancestryFeats": {
+        "header": "Abstammungstalente",
+        "label": "Neues Abstammungstalent verfügbar:"
+      },
+      "ancestryParagonFeats": {
+        "header": "Paragon Abstammungstalente",
+        "label": "Neues Paragon Abstammungstalent verfügbar:"
+      },
+      "skillFeats": {
+        "header": "Fertigkeitstalente",
+        "label": "Neues Fertigkeitstalent verfügbar:"
+      },
+      "generalFeats": {
+        "header": "Allgemeine Talente",
+        "label": "Neues allgemeines Talent verfügbar:"
+      },
+      "skillIncreases": {
+        "header": "Fertigkeitssteigerungen",
+        "label": "Fertigkeitssteigerung verfügbar:"
+      },
+      "attributeBoosts": {
+        "header": "Attributsverbesserungen",
+        "label": "Wähle vier zu verbessernde Attribute:",
+        "gradualBoostLabel": "Wähle ein zu verbesserndes Attribut:",
+        "boost": "VERB.",
+        "partial": "TEIL-VERB."
+      },
+      "features": {
+        "class": {
+          "header": "Neue Klassenmerkmale",
+          "noAction": "No action required"
+        },
+        "manual": {
+          "update": "Passe dies manuell auf dem ",
+          "spellcasting": "Zauberei",
+          "sheet": "Tab deines Charakterbogens an."
+        },
+        "spellcasting": {
+          "rank": "Neue Zaubergrade und -plätze verfügbar:",
+          "slots": "Neue Zauberplätze:"
+        }
+      },
+      "confirmDialog": {
+        "title": "Änderungen bestätigen",
+        "content": "Bist du dir sicher, dass diese Level-up Änderungen gespeichert werden sollen?"
+      },
+      "filters": {
+        "orderBy": "Sortieren nach:",
+        "level": "Level",
+        "name": "Name",
+        "skills": "Nach Fertigkeiten filtern",
+        "archetypeFeats": "Archetyptalente",
+        "placeholder": {
+          "nameSearch": "Nach Namen suchen",
+          "minLevel": "Min Level",
+          "maxLevel": "Max Level",
+          "dedicationSearch": "Nach Zugangstalent suchen"
+        }
+      },
+      "featButtonContent": "{name} | {level}"
+    },
+    "settings": {
+      "showButton": {
+        "name": "Enable Level-Up Button",
+        "hint": "Choose whether to show a Level-Up button on character sheets. When disabled, the Level-Up Wizard will activate automatically after manually updating a character's level."
+      },
+      "buttonPlacement": {
+        "name": "Level-Up Button Placement",
+        "hint": "Select where the Level-Up button appears: either next to the character's level or in the toolbar at the top of the character sheet.",
+        "options": {
+          "charHeaderSmall": "Next to Level - Small",
+          "charHeaderLarge": "Next to Level - Large",
+          "windowHeader": "Toolbar"
+        }
+      },
+      "sortMethod": {
+        "name": "Feat Sorting Method",
+        "hint": "Choose how feats should be sorted by default.",
+        "options": {
+          "levelDesc": "By Level (High to Low)",
+          "levelAsc": "By Level (Low to High)",
+          "alphaAsc": "Alphabetical (A-Z)",
+          "alphaDesc": "Alphabetical (Z-A)"
+        }
+      },
+      "featPrereqs": {
+        "name": "Display Feat Prerequisites",
+        "hint": "Toggle whether an asterisk (*) appears next to Feats with prerequisites in dropdowns."
+      },
+      "disableLevelInput": {
+        "name": "Disable Level Input",
+        "hint": "If enabled, the default level input on the character sheet will be disabled to encourage the use of the Level-Up Wizard for leveling up. This setting has no effect if the 'Enable Level-Up Button' setting is disabled."
+      },
+      "sendGMWhispers": {
+        "name": "Send Manual Update Whispers to GM",
+        "hint": "When enabled, whispers about required manual updates (such as spell updates) will also be sent to the GM in addition to the player."
+      }
+    },
+    "messages": {
+      "skillIncrease": {
+        "rankName": "Rank {updatedRank}",
+        "rankIncrease": "{skill} skill rank increased to {rankName}."
+      },
+      "global": {
+        "header": "{actorName} has leveled up to level {targetLevel}!",
+        "feats": "Selected Feats:",
+        "noFeats": "No Feats selected.",
+        "skills": "Skill Increase:",
+        "feat": "Feat"
+      },
+      "personal": {
+        "header": "{actorName} Manual Updates Needed",
+        "spellRank": "New Spell Rank & Slots (Spellcasting tab)",
+        "spellSlots": "New Spell Slots (Spellcasting tab)"
+      }
+    },
+    "notifications": {
+      "levelUpStart": "Updating {actorName} to level {targetLevel}...",
+      "levelUpComplete": "{actorName} level up complete!",
+      "wizardStartup": "Starting up Level-Up Wizard...",
+      "missingClass": "Level-Up Wizard cannot start until a class is selected.",
+      "translatedDualClassError": "Level-Up Wizard cannot be used with translated dual classes"
+    }
+  }
+}
