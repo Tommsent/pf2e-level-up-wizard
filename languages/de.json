@@ -5,7 +5,7 @@
       "title": "Level-Up Wizard",
       "header": {
         "name": "{actorName} steigt auf Stufe {targetLevel} auf!",
-        "description": "Hier ist eine Übersicht deiner neuen Talente. Bitte wähle aus, wo du dazu aufgefordert wirst!"
+        "description": "Hier ist eine Übersicht deiner neuen Talente. Bitte wähle ein Talent aus, wo du dazu aufgefordert wirst!"
       },
       "close": "Schließen",
       "notes": {
@@ -55,7 +55,7 @@
       "features": {
         "class": {
           "header": "Neue Klassenmerkmale",
-          "noAction": "No action required"
+          "noAction": "Keine Auswahl erforderlich"
         },
         "manual": {
           "update": "Passe dies manuell auf dem ",
@@ -88,65 +88,65 @@
     },
     "settings": {
       "showButton": {
-        "name": "Enable Level-Up Button",
-        "hint": "Choose whether to show a Level-Up button on character sheets. When disabled, the Level-Up Wizard will activate automatically after manually updating a character's level."
+        "name": "Level-Up Button aktivieren",
+        "hint": "Legt fest, ob auf den Charakterbögen ein Button für den Stufenaufstieg angezeigt werden soll. Wenn diese Option deaktiviert ist, wird der Level-Up Wizard automatisch aktiviert, nachdem die Stufe eines Charakters manuell geändert wurde."
       },
       "buttonPlacement": {
-        "name": "Level-Up Button Placement",
-        "hint": "Select where the Level-Up button appears: either next to the character's level or in the toolbar at the top of the character sheet.",
+        "name": "Platzierung des Level-Up Buttons",
+        "hint": "Legt fest, wo der Level-Up-Button angezeigt wird: Entweder neben der Stufe des Charakters oder in der Toolbar oben auf dem Charakterbogen.",
         "options": {
-          "charHeaderSmall": "Next to Level - Small",
-          "charHeaderLarge": "Next to Level - Large",
+          "charHeaderSmall": "Neben der Stufe - Klein",
+          "charHeaderLarge": "Neben der Stufe - Groß",
           "windowHeader": "Toolbar"
         }
       },
       "sortMethod": {
-        "name": "Feat Sorting Method",
-        "hint": "Choose how feats should be sorted by default.",
+        "name": "Sortierung der Talente",
+        "hint": "Legt fest, wie die Talente standardmäßig sortiert werden sollen",
         "options": {
-          "levelDesc": "By Level (High to Low)",
-          "levelAsc": "By Level (Low to High)",
-          "alphaAsc": "Alphabetical (A-Z)",
-          "alphaDesc": "Alphabetical (Z-A)"
+          "levelDesc": "Nach Stufe (Absteigend)",
+          "levelAsc": "Nach Stufe (Aufsteigend)",
+          "alphaAsc": "Alphabetisch (A-Z)",
+          "alphaDesc": "Alphabetisch (Z-A)"
         }
       },
       "featPrereqs": {
-        "name": "Display Feat Prerequisites",
-        "hint": "Toggle whether an asterisk (*) appears next to Feats with prerequisites in dropdowns."
+        "name": "Talent Voraussetzungen markieren",
+        "hint": "Schaltet um, ob ein Sternchen (*) neben Feats mit Voraussetzungen in Dropdowns erscheint."
       },
       "disableLevelInput": {
-        "name": "Disable Level Input",
-        "hint": "If enabled, the default level input on the character sheet will be disabled to encourage the use of the Level-Up Wizard for leveling up. This setting has no effect if the 'Enable Level-Up Button' setting is disabled."
+        "name": "Stufen Eingabefeld deaktivieren",
+        "hint": "Wenn diese Option aktiviert ist, wird die Standard-Stufeneingabe auf dem Charakterbogen deaktiviert, um die Verwendung des Level-Up-Wizards für den Stufenaufstieg zu fördern. Diese Einstellung hat keine Auswirkung, wenn die Einstellung 'Level-Up-Button aktivieren' deaktiviert ist."
       },
       "sendGMWhispers": {
-        "name": "Send Manual Update Whispers to GM",
-        "hint": "When enabled, whispers about required manual updates (such as spell updates) will also be sent to the GM in addition to the player."
+        "name": "Manuelle Anpassungen an GM schicken",
+        "hint": "Wenn diese Funktion aktiviert ist, werden Nachrichten über erforderliche manuelle Aktualisierungen (z. B. Zauberaktualisierungen) nicht nur an den Spieler, sondern auch an den Spielleiter gesendet."
       }
     },
     "messages": {
       "skillIncrease": {
-        "rankName": "Rank {updatedRank}",
-        "rankIncrease": "{skill} skill rank increased to {rankName}."
+        "rankName": "Rang {updatedRank}",
+        "rankIncrease": "{skill} Fertigkeitsrang erhöht auf {rankName}."
       },
       "global": {
-        "header": "{actorName} has leveled up to level {targetLevel}!",
-        "feats": "Selected Feats:",
-        "noFeats": "No Feats selected.",
-        "skills": "Skill Increase:",
-        "feat": "Feat"
+        "header": "{actorName} ist auf Stufe {targetLevel} aufgestiegen!",
+        "feats": "Gewählte Talente:",
+        "noFeats": "Keine Talente gewählt.",
+        "skills": "Fertigkeitserhöhung:",
+        "feat": "Talent"
       },
       "personal": {
-        "header": "{actorName} Manual Updates Needed",
-        "spellRank": "New Spell Rank & Slots (Spellcasting tab)",
-        "spellSlots": "New Spell Slots (Spellcasting tab)"
+        "header": "{actorName} Manuelle Anpassungen erforderlich",
+        "spellRank": "Neue Zaubergrade und -plätze (Zauberei Tab)",
+        "spellSlots": "Neue Zauberplätze (Zauberei Tab)"
       }
     },
     "notifications": {
-      "levelUpStart": "Updating {actorName} to level {targetLevel}...",
-      "levelUpComplete": "{actorName} level up complete!",
-      "wizardStartup": "Starting up Level-Up Wizard...",
-      "missingClass": "Level-Up Wizard cannot start until a class is selected.",
-      "translatedDualClassError": "Level-Up Wizard cannot be used with translated dual classes"
+      "levelUpStart": "Stufenaufstieg für {actorName} auf Stufe {targetLevel} anwenden...",
+      "levelUpComplete": "{actorName} Stufenaufstieg erfolgreich!",
+      "wizardStartup": "Starte Level-Up Wizard...",
+      "missingClass": "Level-Up Wizard kann nicht gestartet werden, solange keine Klasse gewählt wurde.",
+      "translatedDualClassError": "Level-Up Wizard kann nicht mit übersetzten Doppelklassen genutzt werden."
     }
   }
 }
