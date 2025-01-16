@@ -125,8 +125,8 @@
     },
     "messages": {
       "skillIncrease": {
-        "rankName": "Rang {updatedRank}",
-        "rankIncrease": "{skill} Fertigkeitsrang erhöht auf {rankName}."
+        "rankName": "Grad {updatedRank}",
+        "rankIncrease": "Kompetenzgrad in {skill} erhöht auf {rankName}."
       },
       "global": {
         "header": "{actorName} ist auf Stufe {targetLevel} aufgestiegen!",
